@@ -1,0 +1,149 @@
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+#sticky-box:hover {
+    color: lightpink;
+    text-decoration: underline;
+}
+a:visited {
+    color: white;
+}
+
+#sticky-box {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    background-image: url("https://www.wallpapertip.com/wmimgs/89-895379_desktop-backgrounds-city-black-and-white.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 210px;
+}
+
+h2 {
+    font-weight: 50;
+}
+.logo {
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    font-weight: 850;
+}
+
+.cats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 210px;
+}
+
+.animal1 {
+    border-radius: 25%;
+    margin-left: 100px;
+}
+.animal2 {
+    border-radius: 25%;
+}
+.animal3 {
+    border-radius: 25%;
+    margin-right: 100px;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-position: center center;
+    align-items: center;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+body {
+    margin-bottom: 0px;
+}
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px auto;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+.info-name-age {
+    margin-left: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.info-num-mail {
+    margin-left: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.info-git-insta {
+    margin-left: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.info-blog-we {
+    margin-left: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.info-git-insta:hover {
+    color: lightpink;
+    text-decoration: underline;
+}
+.info-blog-we:hover {
+    color: lightpink;
+    text-decoration: underline;
+}
